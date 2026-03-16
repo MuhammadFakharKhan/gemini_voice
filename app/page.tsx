@@ -206,10 +206,11 @@ export default function Home() {
             <p className="text-sm text-black mb-1">Assistant:</p>
             <p className="text-lg text-black">{responseText}</p>
           </div>
+
         )}
 
         {/* Error Log */}
-        <ErrorLog errors={errors} />
+        <ErrorLog errors={errors} />1
       </div>
     </main>
   );
